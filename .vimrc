@@ -7,7 +7,7 @@ set fileformat=unix fileformats=unix,dos
 set nohlsearch incsearch ignorecase
 set tabstop=8 shiftwidth=4 expandtab smarttab shiftround
 set autoindent copyindent preserveindent
-set nostartofline
+set nostartofline virtualedit=block
 set ttimeout ttimeoutlen=0
 set ruler
 set showcmd shortmess+=Ic
@@ -18,9 +18,9 @@ set formatoptions=cqjl
 set backspace=indent,eol,start
 set nospell spelllang=en
 set commentstring=
-set sessionoptions=buffers,curdir,tabpages,winsize
 set foldmethod=indent foldlevelstart=1
 set wildmenu wildmode=longest:full,full wildcharm=<C-z>
+set sessionoptions=buffers,curdir,tabpages,winsize
 set history=200
 
 
