@@ -24,23 +24,6 @@ set wildmenu wildmode=longest:full,full wildcharm=<C-z>
 set history=200
 
 
-" Essential for my vimscripting
-" run selected vimscript
-xnoremap <silent> <space>v y:@"<cr>
-" run vimscript line
-nmap <space>vv V<space>v
-" run operator
-func! s:viml(...)
-    if a:0 == 0
-        let &opfunc = matchstr(expand('<sfile>'), '[^. ]*$')
-        return 'g@'
-    endif
-    let commands = {"line": "'[V']y", "char": "`[v`]y", "block": "`[\<c-v>`]y"}
-    silent exe 'noautocmd keepjumps normal! ' . get(commands, a:1, '')
-    @"
-endfunc
-nnoremap <silent> <expr> <space>v <SID>viml()
-
 set pastetoggle=<F11>
 
 " Toggles
@@ -69,6 +52,22 @@ func! s:sort(type, ...)
 endfunc
 nmap <silent> gs :set opfunc=<SID>sort<CR>g@
 xmap <silent> gs :sort<CR>
+
+" run selected vimscript
+xnoremap <silent> <space>v y:@"<cr>
+" run vimscript line
+nmap <space>vv V<space>v
+" run operator
+func! s:viml(...)
+    if a:0 == 0
+        let &opfunc = matchstr(expand('<sfile>'), '[^. ]*$')
+        return 'g@'
+    endif
+    let commands = {"line": "'[V']y", "char": "`[v`]y", "block": "`[\<c-v>`]y"}
+    silent exe 'noautocmd keepjumps normal! ' . get(commands, a:1, '')
+    @"
+endfunc
+nnoremap <silent> <expr> <space>v <SID>viml()
 
 
 augroup filetypes | au!
