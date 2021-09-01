@@ -75,3 +75,74 @@ augroup filetypes | au!
     " sudo npm -g install js-beautify
     au Filetype json let &l:formatprg = "js-beautify -f -"
 augroup END
+
+" embedded colors
+set background=dark
+hi clear
+hi EndOfBuffer ctermfg=238 ctermbg=NONE cterm=NONE
+hi Statusline ctermfg=234 ctermbg=66 cterm=NONE
+hi StatuslineNC ctermfg=250 ctermbg=238 cterm=NONE
+hi StatuslineTerm ctermfg=234 ctermbg=66 cterm=NONE
+hi StatuslineTermNC ctermfg=250 ctermbg=238 cterm=NONE
+hi VertSplit ctermfg=238 ctermbg=238 cterm=NONE
+hi Pmenu ctermfg=NONE ctermbg=238 cterm=NONE
+hi PmenuSel ctermfg=234 ctermbg=179 cterm=NONE
+hi PmenuSbar ctermfg=NONE ctermbg=242 cterm=NONE
+hi PmenuThumb ctermfg=NONE ctermbg=231 cterm=NONE
+hi TabLine ctermfg=250 ctermbg=238 cterm=NONE
+hi TabLineFill ctermfg=66 ctermbg=238 cterm=NONE
+hi TabLineSel ctermfg=234 ctermbg=66 cterm=NONE
+hi ToolbarLine ctermfg=NONE ctermbg=233 cterm=NONE
+hi ToolbarButton ctermfg=234 ctermbg=108 cterm=NONE
+hi NonText ctermfg=238 ctermbg=NONE cterm=NONE
+hi SpecialKey ctermfg=238 ctermbg=NONE cterm=NONE
+hi Folded ctermfg=242 ctermbg=233 cterm=NONE
+hi Visual ctermfg=234 ctermbg=110 cterm=NONE
+hi VisualNOS ctermfg=234 ctermbg=110 cterm=NONE
+hi LineNr ctermfg=242 ctermbg=233 cterm=NONE
+hi FoldColumn ctermfg=242 ctermbg=233 cterm=NONE
+hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE
+hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE
+hi CursorLineNr ctermfg=NONE ctermbg=233 cterm=NONE
+hi QuickFixLine ctermfg=NONE ctermbg=237 cterm=NONE
+hi SignColumn ctermfg=NONE ctermbg=233 cterm=NONE
+hi Underlined ctermfg=179 ctermbg=NONE cterm=underline
+hi Error ctermfg=131 ctermbg=NONE cterm=NONE
+hi ErrorMsg ctermfg=131 ctermbg=NONE cterm=NONE
+hi ModeMsg ctermfg=234 ctermbg=136 cterm=NONE
+hi WarningMsg ctermfg=136 ctermbg=NONE cterm=NONE
+hi MoreMsg ctermfg=108 ctermbg=NONE cterm=NONE
+hi Question ctermfg=173 ctermbg=NONE cterm=NONE
+hi Todo ctermfg=234 ctermbg=242 cterm=NONE
+hi MatchParen ctermfg=233 ctermbg=136 cterm=NONE
+hi Search ctermfg=233 ctermbg=65 cterm=NONE
+hi IncSearch ctermfg=233 ctermbg=179 cterm=NONE
+hi WildMenu ctermfg=234 ctermbg=179 cterm=NONE
+hi ColorColumn ctermfg=NONE ctermbg=233 cterm=NONE
+hi Cursor ctermfg=234 ctermbg=250 cterm=NONE
+hi lCursor ctermfg=234 ctermbg=131 cterm=NONE
+hi DiffAdd ctermfg=NONE ctermbg=236 cterm=NONE
+hi DiffChange ctermfg=NONE ctermbg=236 cterm=NONE
+hi DiffText ctermfg=234 ctermbg=136 cterm=NONE
+hi DiffDelete ctermfg=131 ctermbg=236 cterm=NONE
+hi SpellBad ctermfg=131 ctermbg=NONE cterm=underline
+hi SpellCap ctermfg=173 ctermbg=NONE cterm=underline
+hi SpellLocal ctermfg=136 ctermbg=NONE cterm=underline
+hi SpellRare ctermfg=179 ctermbg=NONE cterm=underline
+hi Comment ctermfg=242 ctermbg=NONE cterm=NONE
+hi Identifier ctermfg=103 ctermbg=NONE cterm=NONE
+hi Function ctermfg=179 ctermbg=NONE cterm=NONE
+hi Statement ctermfg=110 ctermbg=NONE cterm=NONE
+hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
+hi String ctermfg=108 ctermbg=NONE cterm=NONE
+hi Character ctermfg=108 ctermbg=NONE cterm=NONE
+hi PreProc ctermfg=66 ctermbg=NONE cterm=NONE
+hi Type ctermfg=67 ctermbg=NONE cterm=NONE
+hi Special ctermfg=65 ctermbg=NONE cterm=NONE
+hi SpecialChar ctermfg=60 ctermbg=NONE cterm=NONE
+hi Tag ctermfg=73 ctermbg=NONE cterm=NONE
+hi SpecialComment ctermfg=73 ctermbg=NONE cterm=NONE
+hi Directory ctermfg=66 ctermbg=NONE cterm=bold
+hi Conceal ctermfg=242 ctermbg=NONE cterm=NONE
+hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE
+hi Title ctermfg=231 ctermbg=NONE cterm=bold
