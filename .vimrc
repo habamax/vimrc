@@ -1,4 +1,4 @@
-" curl -L https://github.com/habamax/vimrc/tarball/master | tar xz --strip-components 1
+" curl -LO https://raw.githubusercontent.com/habamax/vimrc/master/.vimrc
 filetype plugin indent on
 syntax on
 
