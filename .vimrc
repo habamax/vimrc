@@ -73,6 +73,7 @@ nnoremap <silent> <expr> <space>v <SID>viml()
 augroup filetypes | au!
     " sudo npm -g install js-beautify
     au Filetype json let &l:formatprg = "js-beautify -f -"
+    au Filetype html let &l:formatprg = "html-beautify -f -"
 augroup END
 
 
