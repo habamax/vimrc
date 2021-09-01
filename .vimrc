@@ -46,13 +46,6 @@ nnoremap <silent> ]W :llast<CR>
 nnoremap <silent> [w :lprevious<CR>
 nnoremap <silent> [W :lfirst<CR>
 
-" Sort operator
-func! s:sort(type, ...)
-    '[,']sort
-endfunc
-nmap <silent> gs :set opfunc=<SID>sort<CR>g@
-xmap <silent> gs :sort<CR>
-
 " Run vimscript operator
 func! s:viml(...)
     if a:0 == 0
