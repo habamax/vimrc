@@ -53,11 +53,7 @@ endfunc
 nmap <silent> gs :set opfunc=<SID>sort<CR>g@
 xmap <silent> gs :sort<CR>
 
-" run selected vimscript
-xnoremap <silent> <space>v y:@"<cr>
-" run vimscript line
-nmap <space>vv V<space>v
-" run operator
+" Run vimscript operator
 func! s:viml(...)
     if a:0 == 0
         let &opfunc = matchstr(expand('<sfile>'), '[^. ]*$')
@@ -68,6 +64,8 @@ func! s:viml(...)
     @"
 endfunc
 nnoremap <silent> <expr> <space>v <SID>viml()
+xnoremap <silent> <space>v y:@"<cr>
+nmap <space>vv V<space>v
 
 
 augroup filetypes | au!
@@ -91,7 +89,7 @@ if !isdirectory(&backupdir) | call mkdir(&backupdir, "p") | endif
 if !isdirectory(&directory) | call mkdir(&directory, "p") | endif
 
 
-" embedded colors
+" Embedded colors
 set background=dark
 hi clear
 hi EndOfBuffer ctermfg=238 ctermbg=NONE cterm=NONE
