@@ -82,7 +82,7 @@ if !isdirectory(&backupdir) | call mkdir(&backupdir, "p") | endif
 if !isdirectory(&directory) | call mkdir(&directory, "p") | endif
 
 
-" Embedded colors
+" Embedded bronzage colors
 set background=dark
 hi clear
 hi EndOfBuffer ctermfg=239 ctermbg=NONE cterm=NONE
