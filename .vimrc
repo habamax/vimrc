@@ -88,8 +88,8 @@ hi clear
 hi EndOfBuffer ctermfg=239 ctermbg=NONE cterm=NONE
 hi Statusline ctermfg=237 ctermbg=244 cterm=NONE
 hi StatuslineNC ctermfg=244 ctermbg=239 cterm=NONE
-hi StatuslineTerm ctermfg=237 ctermbg=109 cterm=NONE
-hi StatuslineTermNC ctermfg=252 ctermbg=239 cterm=NONE
+hi StatuslineTerm ctermfg=237 ctermbg=244 cterm=NONE
+hi StatuslineTermNC ctermfg=244 ctermbg=239 cterm=NONE
 hi VertSplit ctermfg=239 ctermbg=239 cterm=NONE
 hi Pmenu ctermfg=NONE ctermbg=239 cterm=NONE
 hi PmenuSel ctermfg=237 ctermbg=186 cterm=NONE
