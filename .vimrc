@@ -85,70 +85,70 @@ if !isdirectory(&directory) | call mkdir(&directory, "p") | endif
 " Embedded bronzage colors
 set background=dark
 hi clear
-  hi EndOfBuffer ctermfg=239 ctermbg=NONE cterm=NONE
-  hi Statusline ctermfg=237 ctermbg=244 cterm=NONE
-  hi StatuslineNC ctermfg=244 ctermbg=239 cterm=NONE
-  hi StatuslineTerm ctermfg=237 ctermbg=244 cterm=NONE
-  hi StatuslineTermNC ctermfg=244 ctermbg=239 cterm=NONE
-  hi VertSplit ctermfg=239 ctermbg=239 cterm=NONE
-  hi Pmenu ctermfg=NONE ctermbg=239 cterm=NONE
-  hi PmenuSel ctermfg=237 ctermbg=186 cterm=NONE
-  hi PmenuSbar ctermfg=NONE ctermbg=244 cterm=NONE
-  hi PmenuThumb ctermfg=NONE ctermbg=254 cterm=NONE
-  hi TabLine ctermfg=244 ctermbg=239 cterm=NONE
-  hi TabLineFill ctermfg=109 ctermbg=239 cterm=NONE
-  hi TabLineSel ctermfg=237 ctermbg=244 cterm=NONE
-  hi ToolbarLine ctermfg=NONE ctermbg=236 cterm=NONE
-  hi ToolbarButton ctermfg=237 ctermbg=108 cterm=NONE
-  hi NonText ctermfg=239 ctermbg=NONE cterm=NONE
-  hi SpecialKey ctermfg=239 ctermbg=NONE cterm=NONE
-  hi Folded ctermfg=244 ctermbg=236 cterm=NONE
-  hi Visual ctermfg=237 ctermbg=110 cterm=NONE
-  hi VisualNOS ctermfg=237 ctermbg=110 cterm=NONE
-  hi LineNr ctermfg=244 ctermbg=237 cterm=NONE
-  hi FoldColumn ctermfg=244 ctermbg=237 cterm=NONE
-  hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE
-  hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE
-  hi CursorLineNr ctermfg=NONE ctermbg=236 cterm=NONE
-  hi QuickFixLine ctermfg=NONE ctermbg=236 cterm=NONE
-  hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE
-  hi Underlined ctermfg=186 ctermbg=NONE cterm=underline
-  hi Error ctermfg=167 ctermbg=NONE cterm=NONE
-  hi ErrorMsg ctermfg=167 ctermbg=NONE cterm=NONE
-  hi ModeMsg ctermfg=237 ctermbg=143 cterm=NONE
-  hi WarningMsg ctermfg=143 ctermbg=NONE cterm=NONE
-  hi MoreMsg ctermfg=108 ctermbg=NONE cterm=NONE
-  hi Question ctermfg=173 ctermbg=NONE cterm=NONE
-  hi Todo ctermfg=237 ctermbg=244 cterm=NONE
-  hi MatchParen ctermfg=236 ctermbg=143 cterm=NONE
-  hi Search ctermfg=236 ctermbg=108 cterm=NONE
-  hi IncSearch ctermfg=236 ctermbg=186 cterm=NONE
-  hi WildMenu ctermfg=237 ctermbg=186 cterm=NONE
-  hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE
-  hi Cursor ctermfg=237 ctermbg=252 cterm=NONE
-  hi lCursor ctermfg=237 ctermbg=167 cterm=NONE
-  hi DiffAdd ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi DiffChange ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi DiffText ctermfg=237 ctermbg=143 cterm=NONE
-  hi DiffDelete ctermfg=137 ctermbg=NONE cterm=NONE
-  hi SpellBad ctermfg=167 ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=173 ctermbg=NONE cterm=underline
-  hi SpellLocal ctermfg=143 ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=186 ctermbg=NONE cterm=underline
-  hi Comment ctermfg=244 ctermbg=NONE cterm=NONE
-  hi Identifier ctermfg=143 ctermbg=NONE cterm=NONE
-  hi Function ctermfg=186 ctermbg=NONE cterm=NONE
-  hi Statement ctermfg=179 ctermbg=NONE cterm=NONE
-  hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
-  hi String ctermfg=108 ctermbg=NONE cterm=NONE
-  hi Character ctermfg=107 ctermbg=NONE cterm=NONE
-  hi PreProc ctermfg=109 ctermbg=NONE cterm=NONE
-  hi Type ctermfg=137 ctermbg=NONE cterm=NONE
-  hi Special ctermfg=66 ctermbg=NONE cterm=NONE
-  hi SpecialChar ctermfg=137 ctermbg=NONE cterm=NONE
-  hi Tag ctermfg=116 ctermbg=NONE cterm=NONE
-  hi SpecialComment ctermfg=116 ctermbg=NONE cterm=NONE
-  hi Directory ctermfg=137 ctermbg=NONE cterm=bold
-  hi Conceal ctermfg=244 ctermbg=NONE cterm=NONE
-  hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Title ctermfg=254 ctermbg=NONE cterm=bold
+hi EndOfBuffer ctermfg=239 ctermbg=NONE cterm=NONE
+hi Statusline ctermfg=237 ctermbg=244 cterm=NONE
+hi StatuslineNC ctermfg=244 ctermbg=239 cterm=NONE
+hi StatuslineTerm ctermfg=237 ctermbg=244 cterm=NONE
+hi StatuslineTermNC ctermfg=244 ctermbg=239 cterm=NONE
+hi VertSplit ctermfg=239 ctermbg=239 cterm=NONE
+hi Pmenu ctermfg=NONE ctermbg=239 cterm=NONE
+hi PmenuSel ctermfg=237 ctermbg=186 cterm=NONE
+hi PmenuSbar ctermfg=NONE ctermbg=244 cterm=NONE
+hi PmenuThumb ctermfg=NONE ctermbg=254 cterm=NONE
+hi TabLine ctermfg=244 ctermbg=239 cterm=NONE
+hi TabLineFill ctermfg=109 ctermbg=239 cterm=NONE
+hi TabLineSel ctermfg=237 ctermbg=244 cterm=NONE
+hi ToolbarLine ctermfg=NONE ctermbg=236 cterm=NONE
+hi ToolbarButton ctermfg=237 ctermbg=108 cterm=NONE
+hi NonText ctermfg=239 ctermbg=NONE cterm=NONE
+hi SpecialKey ctermfg=239 ctermbg=NONE cterm=NONE
+hi Folded ctermfg=244 ctermbg=236 cterm=NONE
+hi Visual ctermfg=237 ctermbg=110 cterm=NONE
+hi VisualNOS ctermfg=237 ctermbg=110 cterm=NONE
+hi LineNr ctermfg=244 ctermbg=237 cterm=NONE
+hi FoldColumn ctermfg=244 ctermbg=237 cterm=NONE
+hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE
+hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE
+hi CursorLineNr ctermfg=NONE ctermbg=236 cterm=NONE
+hi QuickFixLine ctermfg=NONE ctermbg=236 cterm=NONE
+hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE
+hi Underlined ctermfg=186 ctermbg=NONE cterm=underline
+hi Error ctermfg=167 ctermbg=NONE cterm=NONE
+hi ErrorMsg ctermfg=167 ctermbg=NONE cterm=NONE
+hi ModeMsg ctermfg=237 ctermbg=143 cterm=NONE
+hi WarningMsg ctermfg=143 ctermbg=NONE cterm=NONE
+hi MoreMsg ctermfg=108 ctermbg=NONE cterm=NONE
+hi Question ctermfg=173 ctermbg=NONE cterm=NONE
+hi Todo ctermfg=237 ctermbg=244 cterm=NONE
+hi MatchParen ctermfg=236 ctermbg=143 cterm=NONE
+hi Search ctermfg=236 ctermbg=108 cterm=NONE
+hi IncSearch ctermfg=236 ctermbg=186 cterm=NONE
+hi WildMenu ctermfg=237 ctermbg=186 cterm=NONE
+hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE
+hi Cursor ctermfg=237 ctermbg=252 cterm=NONE
+hi lCursor ctermfg=237 ctermbg=167 cterm=NONE
+hi DiffAdd ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiffChange ctermfg=NONE ctermbg=NONE cterm=NONE
+hi DiffText ctermfg=237 ctermbg=143 cterm=NONE
+hi DiffDelete ctermfg=137 ctermbg=NONE cterm=NONE
+hi SpellBad ctermfg=167 ctermbg=NONE cterm=underline
+hi SpellCap ctermfg=173 ctermbg=NONE cterm=underline
+hi SpellLocal ctermfg=143 ctermbg=NONE cterm=underline
+hi SpellRare ctermfg=186 ctermbg=NONE cterm=underline
+hi Comment ctermfg=244 ctermbg=NONE cterm=NONE
+hi Identifier ctermfg=143 ctermbg=NONE cterm=NONE
+hi Function ctermfg=186 ctermbg=NONE cterm=NONE
+hi Statement ctermfg=179 ctermbg=NONE cterm=NONE
+hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
+hi String ctermfg=108 ctermbg=NONE cterm=NONE
+hi Character ctermfg=107 ctermbg=NONE cterm=NONE
+hi PreProc ctermfg=109 ctermbg=NONE cterm=NONE
+hi Type ctermfg=137 ctermbg=NONE cterm=NONE
+hi Special ctermfg=66 ctermbg=NONE cterm=NONE
+hi SpecialChar ctermfg=137 ctermbg=NONE cterm=NONE
+hi Tag ctermfg=116 ctermbg=NONE cterm=NONE
+hi SpecialComment ctermfg=116 ctermbg=NONE cterm=NONE
+hi Directory ctermfg=137 ctermbg=NONE cterm=bold
+hi Conceal ctermfg=244 ctermbg=NONE cterm=NONE
+hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE
+hi Title ctermfg=254 ctermbg=NONE cterm=bold
