@@ -110,8 +110,8 @@ hi SpecialKey ctermfg=239 ctermbg=NONE cterm=NONE
 hi Folded ctermfg=244 ctermbg=236 cterm=NONE
 hi Visual ctermfg=237 ctermbg=110 cterm=NONE
 hi VisualNOS ctermfg=237 ctermbg=110 cterm=NONE
-hi LineNr ctermfg=244 ctermbg=237 cterm=NONE
-hi FoldColumn ctermfg=244 ctermbg=237 cterm=NONE
+hi LineNr ctermfg=244 ctermbg=NONE cterm=NONE
+hi FoldColumn ctermfg=244 ctermbg=NONE cterm=NONE
 hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE
 hi CursorLineNr ctermfg=NONE ctermbg=236 cterm=NONE
