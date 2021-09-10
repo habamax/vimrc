@@ -19,7 +19,7 @@ set backspace=indent,eol,start
 set nospell spelllang=en
 set commentstring=
 set foldmethod=indent foldlevelstart=1
-set wildmenu wildcharm=<C-z>
+set wildmenu
 set sessionoptions=buffers,curdir,tabpages,winsize
 set history=200
 
