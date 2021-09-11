@@ -46,10 +46,7 @@ nnoremap <silent> ]W :llast<CR>
 nnoremap <silent> [w :lprevious<CR>
 nnoremap <silent> [W :lfirst<CR>
 
-" Better previous window
 nnoremap <silent> <BS> <C-w>w
-
-nnoremap <BS> <C-^>
 
 " Run vimscript operator
 func! s:viml(...)
