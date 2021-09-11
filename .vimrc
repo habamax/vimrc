@@ -51,6 +51,8 @@ nnoremap <silent> <CR> :exe "wincmd " . ((winnr('#') ? winnr('#') : winnr()) == 
 nmap <silent> <C-w><C-p> <CR>
 nmap <silent> <C-w>p <CR>
 
+nnoremap <BS> <C-^>
+
 " Run vimscript operator
 func! s:viml(...)
     if a:0 == 0
