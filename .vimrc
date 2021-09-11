@@ -47,9 +47,7 @@ nnoremap <silent> [w :lprevious<CR>
 nnoremap <silent> [W :lfirst<CR>
 
 " Better previous window
-nnoremap <silent> <CR> :exe "wincmd " . ((winnr('#') ? winnr('#') : winnr()) == winnr() ? 'w' : 'p')<CR>
-nmap <silent> <C-w><C-p> <CR>
-nmap <silent> <C-w>p <CR>
+nnoremap <silent> <BS> <C-w>w
 
 nnoremap <BS> <C-^>
 
