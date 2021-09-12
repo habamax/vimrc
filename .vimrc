@@ -5,7 +5,7 @@ syntax on
 set hidden confirm
 set fileformat=unix fileformats=unix,dos
 set nohlsearch incsearch ignorecase
-set tabstop=8 shiftwidth=4 expandtab smarttab shiftround
+set shiftwidth=4 softtabstop=-1 expandtab
 set autoindent
 set nostartofline virtualedit=block
 set ttimeout ttimeoutlen=0
