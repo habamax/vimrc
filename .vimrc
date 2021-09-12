@@ -79,6 +79,9 @@ set backup
 set undofile
 
 
+if executable('rg') | set grepprg=rg\ --vimgrep grepformat=%f:%l:%c:%m | endif
+
+
 " Embedded bronzage colors
 set background=dark
 hi clear
