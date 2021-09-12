@@ -46,6 +46,7 @@ nnoremap <silent> ]W :llast<CR>
 nnoremap <silent> [w :lprevious<CR>
 nnoremap <silent> [W :lfirst<CR>
 
+nnoremap <silent> <C-j> <C-w>w
 
 " Run vimscript operator
 func! s:viml(...)
