@@ -14,3 +14,4 @@ or just plain old copy paste.
 * Eval vimscript with `<space>v`
 * `vim-unimpaired` like toggles with `yoh`, `yon` etc
 * quickfix mappings `[q`, `]q` etc
+* swap, backup, undo files are in separate `~/.vimdata` directory
