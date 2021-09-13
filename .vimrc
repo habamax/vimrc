@@ -17,7 +17,7 @@ set formatoptions=cqjl
 set backspace=indent,eol,start
 set nospell spelllang=en
 set commentstring=
-set foldmethod=indent foldlevelstart=1
+set foldmethod=indent foldlevelstart=1 foldminlines=2
 set wildmenu
 set sessionoptions=buffers,curdir,tabpages,winsize
 set history=200
