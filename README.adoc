@@ -9,8 +9,8 @@ or just plain old copy paste.
 
 == "Features"
 
-* "better built-in" colors (256 palette)
-* NIH vim-commentary alike `gc` and `gcc`
+* "better built-in" colors (embedded https://github.com/habamax/vim-bronzage[vim-bronzage]) 
+* NIH `vim-commentary` alike `gc` and `gcc`
 * Eval vimscript with `<space>v`
-* vim-unimpaired like toggles with `yoh`, `yon` etc
+* `vim-unimpaired` like toggles with `yoh`, `yon` etc
 * quickfix mappings `[q`, `]q` etc
