@@ -45,6 +45,10 @@ nnoremap <silent> ]W :llast<CR>
 nnoremap <silent> [w :lprevious<CR>
 nnoremap <silent> [W :lfirst<CR>
 
+" Windows
+nnoremap <silent><expr> <C-j> winnr('$') > 1 ? "\<C-w>w" : ":belowright split +bn\<CR>"
+nnoremap <silent><expr> <C-k> winnr('$') > 1 ? "\<C-w>W" : ":split +bn\<CR>"
+
 
 " Comment things
 func! s:comment(...)
