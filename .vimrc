@@ -108,6 +108,35 @@ xnoremap <silent> <space>v y:@"<cr>
 nmap <space>vv V<space>v
 
 
+func! s:redir(cmd) abort
+    for win in range(1, winnr('$'))
+        if getwinvar(win, 'scratch')
+            execute win . 'windo close'
+        endif
+    endfor
+    if a:cmd =~ '^!'
+        let cmd = a:cmd =~' %'
+                    \ ? matchstr(substitute(a:cmd, ' %', ' ' . expand('%:p'), ''), '^!\zs.*')
+                    \ : matchstr(a:cmd, '^!\zs.*')
+        let output = systemlist(cmd)
+    else
+        if version > 704
+            let output = split(execute(a:cmd), "\n")
+        else
+            redir => out
+            exe a:cmd
+            redir END
+            let output = split(out, "\n")
+        endif
+    endif
+    vnew
+    let w:scratch = 1
+    setlocal buftype=nofile bufhidden=wipe nobuflisted noswapfile
+    call setline(1, output)
+endfunc
+command! -nargs=1 -complete=command -bar -range Redir silent call s:redir(<q-args>)
+
+
 augroup filetypes | au!
     " sudo npm -g install js-beautify
     au Filetype json let &l:formatprg = "js-beautify -f -"
