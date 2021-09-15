@@ -134,7 +134,7 @@ func! s:redir(cmd) abort
     setlocal buftype=nofile bufhidden=wipe nobuflisted noswapfile
     call setline(1, output)
 endfunc
-command! -nargs=1 -complete=command -bar -range Redir silent call s:redir(<q-args>)
+command! -nargs=1 -complete=command Redir silent call s:redir(<q-args>)
 
 
 augroup filetypes | au!
