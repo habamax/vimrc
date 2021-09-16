@@ -120,20 +120,13 @@ func! s:redir(cmd) abort
             execute win . 'windo close'
         endif
     endfor
-    if a:cmd =~ '^!'
-        let cmd = a:cmd =~' %'
-                    \ ? matchstr(substitute(a:cmd, ' %', ' ' . expand('%:p'), ''), '^!\zs.*')
-                    \ : matchstr(a:cmd, '^!\zs.*')
-        let output = systemlist(cmd)
+    if version > 704
+        let output = split(execute(a:cmd), "\n")
     else
-        if version > 704
-            let output = split(execute(a:cmd), "\n")
-        else
-            redir => out
-            exe a:cmd
-            redir END
-            let output = split(out, "\n")
-        endif
+        redir => out
+        exe a:cmd
+        redir END
+        let output = split(out, "\n")
     endif
     vnew
     let w:scratch = 1
