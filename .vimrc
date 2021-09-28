@@ -33,7 +33,7 @@ nnoremap <silent> yor :set relativenumber! relativenumber?<CR>
 nnoremap <silent> yol :set list! list?<CR>
 nnoremap <silent> yos :set spell! spell?<CR>
 nnoremap <silent> yoc :set cursorline! cursorline?<CR>
-nnoremap <expr> yod (&diff ? ":diffoff" : ":diffthis").."<CR>"
+nnoremap <expr> yod (&diff ? ":diffoff" : ":diffthis") . "<CR>"
 
 " QuickFix
 nnoremap <silent> ]q :cnext<CR>
