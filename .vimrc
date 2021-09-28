@@ -173,7 +173,7 @@ hi PmenuThumb ctermfg=NONE ctermbg=254 cterm=NONE
 hi TabLine ctermfg=244 ctermbg=239 cterm=NONE
 hi TabLineFill ctermfg=109 ctermbg=239 cterm=NONE
 hi TabLineSel ctermfg=237 ctermbg=244 cterm=NONE
-hi ToolbarLine ctermfg=NONE ctermbg=236 cterm=NONE
+hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ToolbarButton ctermfg=237 ctermbg=108 cterm=NONE
 hi NonText ctermfg=239 ctermbg=NONE cterm=NONE
 hi SpecialKey ctermfg=239 ctermbg=NONE cterm=NONE
@@ -203,9 +203,9 @@ hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE
 hi Cursor ctermfg=237 ctermbg=252 cterm=NONE
 hi lCursor ctermfg=237 ctermbg=167 cterm=NONE
 hi DiffAdd ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiffChange ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiffText ctermfg=237 ctermbg=143 cterm=NONE
-hi DiffDelete ctermfg=137 ctermbg=NONE cterm=NONE
+hi DiffChange ctermfg=NONE ctermbg=238 cterm=NONE
+hi DiffText ctermfg=116 ctermbg=66 cterm=NONE
+hi DiffDelete ctermfg=167 ctermbg=NONE cterm=NONE
 hi SpellBad ctermfg=167 ctermbg=NONE cterm=underline
 hi SpellCap ctermfg=173 ctermbg=NONE cterm=underline
 hi SpellLocal ctermfg=143 ctermbg=NONE cterm=underline
