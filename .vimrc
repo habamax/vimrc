@@ -9,7 +9,7 @@ set autoindent
 set nostartofline virtualedit=block
 set ttimeout ttimeoutlen=0
 set ruler
-set showcmd shortmess+=Ic
+set shortmess+=Ic
 set lazyredraw display=lastline
 set completeopt=menu
 set nowrap
@@ -158,6 +158,7 @@ if executable('rg') | set grepprg=rg\ --vimgrep grepformat=%f:%l:%c:%m | endif
 
 
 " Embedded bronzage colors
+if exists('&t_Co') && &t_Co < 256 | finish | endif
 set background=dark
 hi clear
 hi EndOfBuffer ctermfg=239 ctermbg=NONE cterm=NONE
