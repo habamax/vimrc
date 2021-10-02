@@ -166,7 +166,7 @@ hi Statusline ctermfg=237 ctermbg=244 cterm=NONE
 hi StatuslineNC ctermfg=244 ctermbg=239 cterm=NONE
 hi StatuslineTerm ctermfg=237 ctermbg=244 cterm=NONE
 hi StatuslineTermNC ctermfg=244 ctermbg=239 cterm=NONE
-hi VertSplit ctermfg=239 ctermbg=239 cterm=NONE
+hi VertSplit ctermfg=239 ctermbg=NONE cterm=NONE
 hi Pmenu ctermfg=NONE ctermbg=239 cterm=NONE
 hi PmenuSel ctermfg=237 ctermbg=186 cterm=NONE
 hi PmenuSbar ctermfg=NONE ctermbg=244 cterm=NONE
@@ -195,7 +195,7 @@ hi ModeMsg ctermfg=237 ctermbg=143 cterm=NONE
 hi WarningMsg ctermfg=143 ctermbg=NONE cterm=NONE
 hi MoreMsg ctermfg=108 ctermbg=NONE cterm=NONE
 hi Question ctermfg=173 ctermbg=NONE cterm=NONE
-hi Todo ctermfg=237 ctermbg=244 cterm=NONE
+hi Todo ctermfg=116 ctermbg=239 cterm=NONE
 hi MatchParen ctermfg=236 ctermbg=143 cterm=NONE
 hi Search ctermfg=236 ctermbg=108 cterm=NONE
 hi IncSearch ctermfg=236 ctermbg=186 cterm=NONE
@@ -221,9 +221,6 @@ hi Character ctermfg=107 ctermbg=NONE cterm=NONE
 hi PreProc ctermfg=109 ctermbg=NONE cterm=NONE
 hi Type ctermfg=137 ctermbg=NONE cterm=NONE
 hi Special ctermfg=66 ctermbg=NONE cterm=NONE
-hi SpecialChar ctermfg=137 ctermbg=NONE cterm=NONE
-hi Tag ctermfg=116 ctermbg=NONE cterm=NONE
-hi SpecialComment ctermfg=116 ctermbg=NONE cterm=NONE
 hi Directory ctermfg=137 ctermbg=NONE cterm=bold
 hi Conceal ctermfg=244 ctermbg=NONE cterm=NONE
 hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE
