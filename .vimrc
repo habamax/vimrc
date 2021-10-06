@@ -46,11 +46,12 @@ nnoremap <silent> [w :lprevious<CR>
 nnoremap <silent> [W :lfirst<CR>
 
 " Windows
-nnoremap <silent><expr> <C-j> winnr('$') > 1 ? "\<C-w>w" : ":bel vs +bn\<CR>"
-nnoremap <silent><expr> <C-k> winnr('$') > 1 ? "\<C-w>W" : ":vs +bn\<CR>"
 nnoremap <silent> <C-w>m :resize<bar>vert resize<CR>
 nmap <C-w><C-m> <C-w>m
 
+" Buffers
+nnoremap <silent> <C-j> :<C-U>bn<CR>
+nnoremap <silent> <C-k> :<C-U>bp<CR>
 
 " Comment things
 func! s:comment(...)
