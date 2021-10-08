@@ -51,6 +51,10 @@ nmap <C-w><C-m> <C-w>m
 nnoremap <silent><expr> <C-j> winnr('$') > 1 ? "\<C-w>w" : ":bel vs +bn\<CR>"
 nnoremap <silent><expr> <C-k> winnr('$') > 1 ? "\<C-w>W" : ":vs +bn\<CR>"
 
+" Buffers
+nnoremap <silent> <C-n> :bn<CR>
+nnoremap <silent> <C-p> :bp<CR>
+
 " Comment things
 func! s:comment(...)
     if a:0 == 0
