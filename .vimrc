@@ -23,7 +23,7 @@ set sessionoptions=buffers,curdir,tabpages,winsize
 set history=200
 
 
-set pastetoggle=<F11>
+set pastetoggle=<F12>
 
 " Toggles
 nnoremap <silent> yoh :set hlsearch! hlsearch?<CR>
@@ -209,7 +209,7 @@ hi lCursor ctermfg=236 ctermbg=167 cterm=NONE
 hi DiffAdd ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE
 hi DiffText ctermfg=116 ctermbg=66 cterm=NONE
-hi DiffDelete ctermfg=167 ctermbg=NONE cterm=NONE
+hi DiffDelete ctermfg=173 ctermbg=NONE cterm=NONE
 hi SpellBad ctermfg=167 ctermbg=NONE cterm=underline
 hi SpellCap ctermfg=173 ctermbg=NONE cterm=underline
 hi SpellLocal ctermfg=143 ctermbg=NONE cterm=underline
