@@ -48,8 +48,8 @@ nnoremap <silent> [W :lfirst<CR>
 " Windows
 nnoremap <silent> <C-w>m :resize<bar>vert resize<CR>
 nmap <C-w><C-m> <C-w>m
-nnoremap <silent><expr> <C-j> winnr('$') > 1 ? "\<C-w>w" : ":bel vs +bn\<CR>"
-nnoremap <silent><expr> <C-k> winnr('$') > 1 ? "\<C-w>W" : ":vs +bn\<CR>"
+nnoremap <silent><expr> <C-j> winnr('$') > 1 ? "\<C-w>w" : ":bel vs +b#\<CR>"
+nnoremap <silent><expr> <C-k> winnr('$') > 1 ? "\<C-w>W" : ":vs +b#\<CR>"
 
 " Buffers
 nnoremap <silent> <C-n> :bn<CR>
@@ -175,8 +175,8 @@ hi PmenuSel ctermfg=236 ctermbg=186 cterm=NONE
 hi PmenuSbar ctermfg=NONE ctermbg=244 cterm=NONE
 hi PmenuThumb ctermfg=NONE ctermbg=254 cterm=NONE
 hi TabLine ctermfg=244 ctermbg=239 cterm=NONE
-hi TabLineFill ctermfg=109 ctermbg=239 cterm=NONE
-hi TabLineSel ctermfg=236 ctermbg=244 cterm=NONE
+hi TabLineFill ctermfg=252 ctermbg=239 cterm=NONE
+hi TabLineSel ctermfg=252 ctermbg=236 cterm=NONE
 hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ToolbarButton ctermfg=236 ctermbg=108 cterm=NONE
 hi NonText ctermfg=239 ctermbg=NONE cterm=NONE
