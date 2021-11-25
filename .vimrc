@@ -170,13 +170,13 @@ hi StatuslineNC ctermfg=244 ctermbg=239 cterm=NONE
 hi StatuslineTerm ctermfg=236 ctermbg=244 cterm=NONE
 hi StatuslineTermNC ctermfg=244 ctermbg=239 cterm=NONE
 hi VertSplit ctermfg=239 ctermbg=239 cterm=NONE
-hi Pmenu ctermfg=NONE ctermbg=239 cterm=NONE
+hi Pmenu ctermfg=NONE ctermbg=235 cterm=NONE
 hi PmenuSel ctermfg=236 ctermbg=186 cterm=NONE
-hi PmenuSbar ctermfg=NONE ctermbg=244 cterm=NONE
-hi PmenuThumb ctermfg=NONE ctermbg=254 cterm=NONE
+hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
+hi PmenuThumb ctermfg=NONE ctermbg=244 cterm=NONE
 hi TabLine ctermfg=244 ctermbg=239 cterm=NONE
-hi TabLineFill ctermfg=252 ctermbg=239 cterm=NONE
-hi TabLineSel ctermfg=252 ctermbg=236 cterm=NONE
+hi TabLineFill ctermfg=NONE ctermbg=239 cterm=NONE
+hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ToolbarButton ctermfg=236 ctermbg=108 cterm=NONE
 hi NonText ctermfg=239 ctermbg=NONE cterm=NONE
@@ -190,12 +190,12 @@ hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE
 hi CursorLineNr ctermfg=NONE ctermbg=235 cterm=NONE
 hi QuickFixLine ctermfg=NONE ctermbg=235 cterm=NONE
-hi SignColumn ctermfg=NONE ctermbg=236 cterm=NONE
+hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Underlined ctermfg=186 ctermbg=NONE cterm=underline
 hi Error ctermfg=167 ctermbg=NONE cterm=NONE
 hi ErrorMsg ctermfg=167 ctermbg=NONE cterm=NONE
 hi ModeMsg ctermfg=236 ctermbg=143 cterm=NONE
-hi WarningMsg ctermfg=143 ctermbg=NONE cterm=NONE
+hi WarningMsg ctermfg=186 ctermbg=NONE cterm=NONE
 hi MoreMsg ctermfg=108 ctermbg=NONE cterm=NONE
 hi Question ctermfg=173 ctermbg=NONE cterm=NONE
 hi Todo ctermfg=116 ctermbg=239 cterm=NONE
@@ -204,16 +204,17 @@ hi Search ctermfg=235 ctermbg=108 cterm=NONE
 hi IncSearch ctermfg=235 ctermbg=186 cterm=NONE
 hi WildMenu ctermfg=236 ctermbg=186 cterm=NONE
 hi ColorColumn ctermfg=NONE ctermbg=235 cterm=NONE
-hi Cursor ctermfg=236 ctermbg=252 cterm=NONE
-hi lCursor ctermfg=236 ctermbg=167 cterm=NONE
-hi DiffAdd ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE
+hi DiffAdd ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiffText ctermfg=116 ctermbg=66 cterm=NONE
 hi DiffDelete ctermfg=173 ctermbg=NONE cterm=NONE
 hi SpellBad ctermfg=167 ctermbg=NONE cterm=underline
 hi SpellCap ctermfg=173 ctermbg=NONE cterm=underline
 hi SpellLocal ctermfg=143 ctermbg=NONE cterm=underline
 hi SpellRare ctermfg=186 ctermbg=NONE cterm=underline
+hi! link Terminal Normal
+hi! link LineNrAbove LineNr
+hi! link LineNrBelow LineNr
 hi Comment ctermfg=244 ctermbg=NONE cterm=NONE
 hi Identifier ctermfg=143 ctermbg=NONE cterm=NONE
 hi Function ctermfg=186 ctermbg=NONE cterm=NONE
