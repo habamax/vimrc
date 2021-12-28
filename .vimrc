@@ -138,9 +138,8 @@ command! -nargs=1 -complete=command Redir silent call s:redir(<q-args>)
 
 
 augroup filetypes | au!
-    " sudo npm -g install js-beautify
-    au Filetype json let &l:formatprg = "js-beautify -f -"
-    au Filetype html let &l:formatprg = "html-beautify -f -"
+    au Filetype json let &l:formatprg = "python -m json.tool"
+    au Filetype html let &l:formatprg = "tidy -q -i --show-errors 0"
 augroup END
 
 
