@@ -160,72 +160,71 @@ set undofile
 if executable('rg') | set grepprg=rg\ --vimgrep grepformat=%f:%l:%c:%m | endif
 
 
-" Embedded bronzage colors
+" Embedded habamax colors
 if exists('&t_Co') && &t_Co < 256 | finish | endif
 set background=dark
 hi clear
-hi EndOfBuffer ctermfg=239 ctermbg=NONE cterm=NONE
-hi Statusline ctermfg=236 ctermbg=244 cterm=NONE
-hi StatuslineNC ctermfg=244 ctermbg=239 cterm=NONE
-hi StatuslineTerm ctermfg=236 ctermbg=244 cterm=NONE
-hi StatuslineTermNC ctermfg=244 ctermbg=239 cterm=NONE
-hi VertSplit ctermfg=239 ctermbg=239 cterm=NONE
-hi Pmenu ctermfg=NONE ctermbg=235 cterm=NONE
-hi PmenuSel ctermfg=236 ctermbg=186 cterm=NONE
-hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-hi PmenuThumb ctermfg=NONE ctermbg=244 cterm=NONE
-hi TabLine ctermfg=244 ctermbg=239 cterm=NONE
-hi TabLineFill ctermfg=NONE ctermbg=239 cterm=NONE
+hi EndOfBuffer ctermfg=241 ctermbg=NONE cterm=NONE
+hi Statusline ctermfg=235 ctermbg=246 cterm=NONE
+hi StatuslineNC ctermfg=235 ctermbg=241 cterm=NONE
+hi StatuslineTerm ctermfg=235 ctermbg=246 cterm=NONE
+hi StatuslineTermNC ctermfg=246 ctermbg=241 cterm=NONE
+hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE
+hi TabLine ctermfg=NONE ctermbg=241 cterm=NONE
+hi TabLineFill ctermfg=NONE ctermbg=241 cterm=NONE
 hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
-hi ToolbarButton ctermfg=236 ctermbg=108 cterm=NONE
-hi NonText ctermfg=239 ctermbg=NONE cterm=NONE
-hi SpecialKey ctermfg=239 ctermbg=NONE cterm=NONE
-hi Folded ctermfg=244 ctermbg=235 cterm=NONE
-hi Visual ctermfg=236 ctermbg=110 cterm=NONE
-hi VisualNOS ctermfg=236 ctermbg=110 cterm=NONE
-hi LineNr ctermfg=244 ctermbg=NONE cterm=NONE
-hi FoldColumn ctermfg=244 ctermbg=NONE cterm=NONE
-hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE
-hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE
-hi CursorLineNr ctermfg=NONE ctermbg=235 cterm=NONE
-hi QuickFixLine ctermfg=NONE ctermbg=235 cterm=NONE
-hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
-hi Underlined ctermfg=186 ctermbg=NONE cterm=underline
-hi Error ctermfg=167 ctermbg=NONE cterm=NONE
-hi ErrorMsg ctermfg=167 ctermbg=NONE cterm=NONE
-hi ModeMsg ctermfg=236 ctermbg=143 cterm=NONE
-hi WarningMsg ctermfg=186 ctermbg=NONE cterm=NONE
-hi MoreMsg ctermfg=108 ctermbg=NONE cterm=NONE
-hi Question ctermfg=173 ctermbg=NONE cterm=NONE
-hi Todo ctermfg=116 ctermbg=239 cterm=NONE
-hi MatchParen ctermfg=235 ctermbg=143 cterm=NONE
-hi Search ctermfg=235 ctermbg=108 cterm=NONE
-hi IncSearch ctermfg=235 ctermbg=186 cterm=NONE
-hi WildMenu ctermfg=236 ctermbg=186 cterm=NONE
-hi ColorColumn ctermfg=NONE ctermbg=235 cterm=NONE
+hi ToolbarButton ctermfg=235 ctermbg=108 cterm=NONE
+hi NonText ctermfg=241 ctermbg=NONE cterm=NONE
+hi SpecialKey ctermfg=241 ctermbg=NONE cterm=NONE
+hi Folded ctermfg=246 ctermbg=NONE cterm=underline
+hi Visual ctermfg=235 ctermbg=110 cterm=NONE
+hi VisualNOS ctermfg=235 ctermbg=110 cterm=NONE
+hi LineNr ctermfg=246 ctermbg=NONE cterm=NONE
+hi FoldColumn ctermfg=246 ctermbg=NONE cterm=NONE
+hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE
+hi CursorColumn ctermfg=NONE ctermbg=234 cterm=NONE
+hi CursorLineNr ctermfg=NONE ctermbg=234 cterm=NONE
+hi QuickFixLine ctermfg=NONE ctermbg=234 cterm=NONE
+hi Pmenu ctermfg=NONE ctermbg=234 cterm=NONE
+hi PmenuThumb ctermfg=NONE ctermbg=246 cterm=NONE
+hi ColorColumn ctermfg=NONE ctermbg=234 cterm=NONE
 hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE
 hi DiffAdd ctermfg=NONE ctermbg=NONE cterm=NONE
-hi DiffText ctermfg=116 ctermbg=66 cterm=NONE
+hi DiffText ctermfg=109 ctermbg=67 cterm=NONE
 hi DiffDelete ctermfg=173 ctermbg=NONE cterm=NONE
+hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
+hi PmenuSel ctermfg=235 ctermbg=144 cterm=NONE
+hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
+hi Error ctermfg=167 ctermbg=235 cterm=reverse
+hi ErrorMsg ctermfg=167 ctermbg=235 cterm=reverse
+hi ModeMsg ctermfg=235 ctermbg=186 cterm=NONE
+hi WarningMsg ctermfg=144 ctermbg=NONE cterm=NONE
+hi MoreMsg ctermfg=108 ctermbg=NONE cterm=NONE
+hi Question ctermfg=173 ctermbg=NONE cterm=NONE
+hi Todo ctermfg=186 ctermbg=235 cterm=reverse
+hi MatchParen ctermfg=NONE ctermbg=NONE cterm=reverse
+hi Search ctermfg=235 ctermbg=108 cterm=NONE
+hi IncSearch ctermfg=235 ctermbg=186 cterm=NONE
+hi WildMenu ctermfg=235 ctermbg=186 cterm=NONE
 hi SpellBad ctermfg=167 ctermbg=NONE cterm=underline
 hi SpellCap ctermfg=173 ctermbg=NONE cterm=underline
-hi SpellLocal ctermfg=143 ctermbg=NONE cterm=underline
+hi SpellLocal ctermfg=182 ctermbg=NONE cterm=underline
 hi SpellRare ctermfg=186 ctermbg=NONE cterm=underline
 hi! link Terminal Normal
 hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
-hi Comment ctermfg=244 ctermbg=NONE cterm=NONE
-hi Identifier ctermfg=143 ctermbg=NONE cterm=NONE
-hi Function ctermfg=186 ctermbg=NONE cterm=NONE
-hi Statement ctermfg=179 ctermbg=NONE cterm=NONE
+hi Comment ctermfg=241 ctermbg=NONE cterm=NONE
 hi Constant ctermfg=173 ctermbg=NONE cterm=NONE
 hi String ctermfg=108 ctermbg=NONE cterm=NONE
-hi Character ctermfg=107 ctermbg=NONE cterm=NONE
-hi PreProc ctermfg=109 ctermbg=NONE cterm=NONE
-hi Type ctermfg=137 ctermbg=NONE cterm=NONE
+hi Character ctermfg=151 ctermbg=NONE cterm=NONE
+hi Identifier ctermfg=109 ctermbg=NONE cterm=NONE
+hi Statement ctermfg=144 ctermbg=NONE cterm=NONE
+hi PreProc ctermfg=67 ctermbg=NONE cterm=NONE
+hi Type ctermfg=139 ctermbg=NONE cterm=NONE
 hi Special ctermfg=66 ctermbg=NONE cterm=NONE
-hi Directory ctermfg=137 ctermbg=NONE cterm=bold
-hi Conceal ctermfg=244 ctermbg=NONE cterm=NONE
+hi Underlined ctermfg=110 ctermbg=NONE cterm=underline
+hi Title ctermfg=255 ctermbg=NONE cterm=bold
+hi Directory ctermfg=67 ctermbg=NONE cterm=bold
+hi Conceal ctermfg=246 ctermbg=NONE cterm=NONE
 hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE
-hi Title ctermfg=254 ctermbg=NONE cterm=bold
