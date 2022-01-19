@@ -15,7 +15,7 @@ or just plain old copy paste.
 "Features"
 ----------
 
-* "built-in" colorscheme (embedded <https://github.com/habamax/vim-habamax>) 
+* "built-in" colorscheme (embedded https://github.com/habamax/vim-habamax) 
 * NIH ``vim-commentary`` alike ``gc`` and ``gcc``
 * Eval vimscript with ``<space>v``
 * ``vim-unimpaired`` like toggles with ``yoh``, ``yon`` etc
