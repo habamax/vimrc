@@ -7,6 +7,7 @@ Install
 -------
 
 ::
+
   curl -LO https://raw.githubusercontent.com/habamax/vimrc/master/.vimrc
 
 or just plain old copy paste.
