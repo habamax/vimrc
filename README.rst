@@ -5,6 +5,7 @@ My minimal vimrc I tend to use on older boxes I have to work with.
 
 Install
 -------
+
 ::
   curl -LO https://raw.githubusercontent.com/habamax/vimrc/master/.vimrc
 
